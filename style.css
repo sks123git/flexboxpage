@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cards {
+  width: 200px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-bottom: 20px;
+}
+.para {
+  text-align: justify;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.btn:hover {
+  width: 180px;
+  color: white;
+  background-color: #e30f91;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.btn {
+  font-weight: bold;
+  width: 180px;
+  background-color: bisque;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media screen and (max-width: 800px) {
+  table {
+    width: 100%;
+  }
+}
